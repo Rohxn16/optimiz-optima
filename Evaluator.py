@@ -4,7 +4,7 @@ import google.generativeai as genai
 from Summarizer import get_transcript, trim_url
 
 # Configure Gemini API
-genai.configure(api_key='AIzaSyCyLyign7HC2ZaRcTak0eS3A1is13gtAbM')
+genai.configure(api_key='INSERT_API_KEY_HERE')
 
 # Create the model
 generation_config = {
