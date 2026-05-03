@@ -4,7 +4,7 @@ from youtube_transcript_api import YouTubeTranscriptApi
 from flask import Flask, request, jsonify
 from flask_cors import CORS
 
-genai.configure(api_key='AIzaSyCyLyign7HC2ZaRcTak0eS3A1is13gtAbM')
+genai.configure(api_key='INSERT_API_KEY_HERE')
 
 # Create the model
 generation_config = {
